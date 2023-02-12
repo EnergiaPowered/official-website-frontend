@@ -72,23 +72,20 @@ export default function Navbar() {
   return (
     <nav
       data-testid="navbar"
-      className={`navbar fixed-top navbar-expand-sm ${scroll ? "bg-dark" : ""}`}
+      className={`navbar fixed-top navbar-expand-sm${scroll ? "bg-dark" : ""}`}
     >
-      <div className="container">
+      <div className="container ">
         <Link className={`navbar-brand ${scroll ? "img-scrolled" : ""}`} to="/">
           <img
             className="logo-img"
             src={logo}
             alt="Energia's Logo"
-            title="logo of the team"
+            title="Energia's Logo"
           />
-        </Link>
-        <Link className={`navbar-brand ${scroll ? "img-scrolled" : ""}`} to="/">
           <img
             className="ainshams-logo-img"
             src={ainShamsLogo}
-            alt="Energia's Logo"
-            title="logo of the team"
+            alt="Ain-shams's Logo"
           />
         </Link>
 
