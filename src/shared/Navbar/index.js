@@ -72,9 +72,9 @@ export default function Navbar() {
   return (
     <nav
       data-testid="navbar"
-      className={`navbar fixed-top navbar-expand-sm${scroll ? "bg-dark" : ""}`}
+      className={`navbar fixed-top navbar-expand-sm ${scroll ? "bg-dark" : ""}`}
     >
-      <div className="container ">
+      <div className="container">
         <Link className={`navbar-brand ${scroll ? "img-scrolled" : ""}`} to="/">
           <img
             className="logo-img"

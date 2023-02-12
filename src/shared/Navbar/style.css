@@ -40,7 +40,7 @@ nav.navbar .navbar-nav span.nav-link {
   padding: 1px;
   margin: auto 10px;
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   transition: padding 0.4s;
 }
 
@@ -55,7 +55,7 @@ nav.navbar .navbar-nav span.nav-link.active {
 @media (max-width: 770px) {
   nav.navbar .navbar-nav a.nav-link,
   nav.navbar .navbar-nav span.nav-link {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 @media (max-width: 575px) {
