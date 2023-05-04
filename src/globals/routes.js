@@ -55,14 +55,6 @@ export default [
     },
   },
   {
-    path: "/participant/certificate",
-    component: CertificateGenerator,
-    inNavbar: {
-      shown: false,
-      label: "Certificate Generator",
-    },
-  },
-  {
     path: "/verify/:serial",
     component: VerifyCertificate,
     inNavbar: {
