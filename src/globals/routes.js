@@ -58,7 +58,7 @@ export default [
     path: "/participant/certificate",
     component: CertificateGenerator,
     inNavbar: {
-      shown: true,
+      shown: false,
       label: "Certificate Generator",
     },
   },

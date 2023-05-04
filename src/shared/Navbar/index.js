@@ -82,12 +82,16 @@ export default function Navbar() {
             alt="Energia's Logo"
             title="Energia's Logo"
           />
-          <img
+      
+        </Link>
+        <Link className={`navbar-brand ${scroll ? "img-scrolled" : ""}`} to="/">
+
+        <img
             className="ainshams-logo-img"
             src={ainShamsLogo}
             alt="Ain-shams's Logo"
-          />
-        </Link>
+          />        </Link>
+
 
         <button
           className="navbar-toggler"
