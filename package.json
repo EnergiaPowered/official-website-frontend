@@ -16,6 +16,8 @@
     "html-react-parser": "^1.4.12",
     "joi-browser": "^13.4.0",
     "jquery": "^3.6.0",
+    "jspdf": "^2.5.1",
+    "jsx-to-png": "^1.0.0-beta.1",
     "jwt-decode": "^3.1.2",
     "moment": "^2.29.1",
     "particles-bg": "^2.4.7",
@@ -29,8 +31,9 @@
     "react-multi-carousel": "^2.5.3",
     "react-page-progress": "^1.1.1",
     "react-particles-js": "^2.7.1",
+    "react-qr-code": "^2.0.11",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.4",
+    "react-scripts": "^5.0.1",
     "react-side-effect": "^2.1.0",
     "socket.io-client": "^4.0.1"
   },
@@ -66,6 +69,7 @@
     "canvas": "^2.6.1",
     "jsdoc": "^3.6.6",
     "jsdom": "^15.2.1",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "tailwindcss": "^3.3.2"
   }
 }
