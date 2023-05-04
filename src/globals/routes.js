@@ -20,6 +20,8 @@ const RecruitmentForm = lazy(() => import("modules/RecruitmentForm"));
 const EventDetails = lazy(() =>
   import("modules/Events/components/EventDetails")
 );
+const VerifyCertificate = lazy(() => import("modules/ValidateCertificate"));
+const CertificateGenerator = lazy(() => import("modules/GenerateCertificates"));
 const FormApp = lazy(() => import("modules/Forms/components/FormApp"));
 const Workshops = lazy(() => import("./../modules/Workshops"));
 const Gates = lazy(() => import("modules/Gates"));
@@ -50,6 +52,22 @@ export default [
     inNavbar: {
       shown: true,
       label: "About",
+    },
+  },
+  {
+    path: "/participant/certificate",
+    component: CertificateGenerator,
+    inNavbar: {
+      shown: true,
+      label: "Certificate Generator",
+    },
+  },
+  {
+    path: "/verify/:serial",
+    component: VerifyCertificate,
+    inNavbar: {
+      shown: false,
+      label: "",
     },
   },
   {
