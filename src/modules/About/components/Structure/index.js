@@ -4,23 +4,23 @@ import React, { useState } from "react";
 import Image from "react-image-enlarger";
 
 // to be dynamic
-import structureImg from "assets/Structure-22.png";
+import structureImg from "assets/Structure-23.png";
 
 export default () => {
- /** 
- * set the zoomed with false initialy
- * @typedef {Boolean} zoomed 
- * @typedef {Function} setZoomed
- */
+  /**
+   * set the zoomed with false initialy
+   * @typedef {Boolean} zoomed
+   * @typedef {Function} setZoomed
+   */
   const [zoomed, setZoomed] = useState(false);
   const season = new Date().getFullYear() % 100;
 
- /**
- * Component which contain the Structure of Enrgia Powered 
- * Image for the Structure 
- * @component 
- * @returns {JSX} Return Structure Section
- */
+  /**
+   * Component which contain the Structure of Enrgia Powered
+   * Image for the Structure
+   * @component
+   * @returns {JSX} Return Structure Section
+   */
   return (
     <section className="bg-section about-structure">
       <h2 className="section-title">Our Structure</h2>
