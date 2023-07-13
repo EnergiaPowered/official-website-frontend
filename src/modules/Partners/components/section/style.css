@@ -1,14 +1,23 @@
 #Partners {
-    text-align: center;
-    background-color: #101b40;
-    padding-top: 60px;
-  }
-  
-  .partner-carousel-item .partner-logo {
-    margin-bottom: 30px;
-  }
-  
-  .partner-carousel-item img {
-    max-width: 100%;
-    height: auto;
-  }
+  text-align: center;
+  background-color: #101b40;
+  padding-top: 60px;
+}
+.partner-carousel-item {
+  width: 200px;
+  margin: auto;
+}
+.partner-carousel-item .partner-logo {
+  margin-bottom: 30px;
+}
+
+.partner-carousel-item img {
+  max-width: 100%;
+  height: auto;
+}
+.partner-carousel-item .partner-name {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
